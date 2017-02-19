@@ -1,7 +1,6 @@
 # tp1-calculoMediaJava #
-
-----------
 Aplicación Java que realiza el cálculo de media de 3 varibables enteras. 
+----------
 
 
 ----------
