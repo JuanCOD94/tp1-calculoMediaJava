@@ -7,6 +7,7 @@ Aplicación Java que realiza el cálculo de media de 3 varibables enteras.
 
 Se requiere la última actualización de Java, que contiene la JVM para que la aplicación sea lanzada.
 Requiere la instalación de Maven para construir el proyecto.
+
 ----------
 ### Instalación ###
 
