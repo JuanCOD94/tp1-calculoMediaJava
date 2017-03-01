@@ -11,19 +11,29 @@ Se requiere la última actualización de Java, que contiene la JVM para que la a
 ### Instalación ###
 
  1. Clonar el repositorio
- 2. Una vez descargado el repositorio, puede abrir el proyecto Maven con Spring Tool Suite.
- 3. Abrir el *main* que lo contiene la carpeta: 
  
-    src/main/java/ProyectoTP1/CalculoMedia
+        git clone https://github.com/Juandelsal/tp1-calculoMediaJava.git
+ 
+ 2. Una vez descargado el repositorio, puede realizar cambios en la aplicación antes de compilar el .jar (véase configuración, más abajo). La ruta del  .java es:
+    
+        /tp1-calculoMediaJava/src/main/java/ProyectoTP1/CalculoMedia/CalculoMedia.java
+    
+ 3. Una vez se ha configurado, creamos la carpeta /target utilizando el siguiente comando que nos proporciona Maven:
+ 
+        mvn package
+ 
+ 4. Una vez construida con éxito la carpeta /target, dentro de ella ejecutamos la aplicación:
+        
+        java -cp CalculoMedia-0.0.1-SNAPSHOT.jar ProyectoTP1.CalculoMedia.CalculoMedia
 
 ----------
 ### Configuración ###
 
-Para editar los enteros:
+Para editar los datos double:
 
-    int a=x;
-    int b=x;
-    int c=x;
+    double a=x;
+    double b=x;
+    double c=x;
 
 ----------
 ### Licencia ###
